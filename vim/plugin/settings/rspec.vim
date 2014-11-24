@@ -24,3 +24,7 @@ nnoremap <silent> ,rxit :call ChangePendingRspecToXit()<cr>
 " insert a before { } block around a line
 nnoremap <silent> \bf ^ibefore { <esc>$a }
 
+" Add tmux integration
+let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+map <Leader>s :call RunNearestSpec()<CR>
+

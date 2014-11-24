@@ -23,7 +23,7 @@ Bundle "astashov/vim-ruby-debugger"
 Bundle "tpope/vim-rails.git"
 Bundle "tpope/vim-rake.git"
 Bundle "vim-ruby/vim-ruby.git"
-Bundle "vim-scripts/Specky.git"
+Bundle 'thoughtbot/vim-rspec'
 
 " Other languages
 Bundle "briancollins/vim-jst"
@@ -36,8 +36,6 @@ Bundle "jtratner/vim-flavored-markdown.git"
 Bundle "kchmck/vim-coffee-script"
 Bundle "nelstrom/vim-markdown-preview"
 Bundle "skwp/vim-html-escape"
-Bundle "timcharper/textile.vim.git"
-Bundle "wavded/vim-stylus"
 
 " Git related...
 Bundle "gregsexton/gitv"
@@ -50,10 +48,7 @@ Bundle "tpope/vim-git"
 Bundle "AndrewRadev/splitjoin.vim"
 Bundle "Raimondi/delimitMate"
 Bundle "briandoll/change-inside-surroundings.vim.git"
-Bundle "garbas/vim-snipmate.git"
 Bundle "godlygeek/tabular"
-Bundle "honza/vim-snippets"
-Bundle "nelstrom/vim-visual-star-search"
 Bundle "tomtom/tcomment_vim.git"
 Bundle "tpope/vim-bundler"
 Bundle "vim-scripts/IndexedSearch"
@@ -63,7 +58,6 @@ Bundle "vim-scripts/matchit.zip.git"
 " General vim improvements
 Bundle "MarcWeber/vim-addon-mw-utils.git"
 Bundle "bogado/file-line.git"
-Bundle "jistr/vim-nerdtree-tabs.git"
 Bundle "kien/ctrlp.vim"
 Bundle "majutsushi/tagbar.git"
 Bundle "rking/ag.vim"
@@ -80,11 +74,14 @@ Bundle "tpope/vim-ragtag"
 Bundle "tpope/vim-repeat.git"
 Bundle "tpope/vim-surround.git"
 Bundle "tpope/vim-unimpaired"
-Bundle "vim-scripts/AnsiEsc.vim.git"
 Bundle "vim-scripts/AutoTag.git"
 Bundle "vim-scripts/lastpos.vim"
 Bundle "vim-scripts/sudo.vim"
 Bundle "xsunsmile/showmarks.git"
+
+" Tmux integration
+Bundle 'christoomey/vim-tmux-navigator'
+Bundle 'jgdavey/tslime.vim'
 
 " Text objects
 Bundle "austintaylor/vim-indentobject"
@@ -105,7 +102,6 @@ Bundle "godlygeek/csapprox"
 Bundle "chrisbra/color_highlight.git"
 Bundle "skwp/vim-powerline.git"
 Bundle "vim-scripts/TagHighlight.git"
-Bundle "slim-template/vim-slim.git"
 Bundle 'morhetz/gruvbox'
 
 " Customization
