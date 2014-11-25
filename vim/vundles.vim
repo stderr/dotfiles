@@ -4,105 +4,106 @@
 "
 " This file contains the list of plugin installed using vundle plugin manager.
 " Once you've updated the list of plugin, you can run vundle update by issuing
-" the command :BundleInstall from within vim or directly invoking it from the
+" the command :PluginInstall from within vim or directly invoking it from the
 " command line with the following syntax:
-" vim --noplugin -u vim/vundles.vim -N "+set hidden" "+syntax on" +BundleClean! +BundleInstall +qall
+" vim --noplugin -u vim/vundles.vim -N "+set hidden" "+syntax on" +PluginClean! +BundleInstall +qall
 " Filetype off is required by vundle
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 
 " let Vundle manage Vundle (required)
-Bundle "gmarik/vundle"
+Plugin 'gmarik/vundle'
 
 " All your bundles here
 
 " Ruby, Rails, Rake...
-Bundle "astashov/vim-ruby-debugger"
-Bundle "tpope/vim-rails.git"
-Bundle "tpope/vim-rake.git"
-Bundle "vim-ruby/vim-ruby.git"
-Bundle 'thoughtbot/vim-rspec'
+Plugin 'astashov/vim-ruby-debugger'
+Plugin 'tpope/vim-rails.git'
+Plugin 'tpope/vim-rake.git'
+Plugin 'vim-ruby/vim-ruby.git'
+Plugin 'thoughtbot/vim-rspec'
 
 " Other languages
-Bundle "briancollins/vim-jst"
-Bundle "pangloss/vim-javascript"
+Plugin 'briancollins/vim-jst'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 " Html, Xml, Css, Markdown...
-Bundle "aaronjensen/vim-sass-status.git"
-Bundle "itspriddle/vim-jquery.git"
-Bundle "jtratner/vim-flavored-markdown.git"
-Bundle "kchmck/vim-coffee-script"
-Bundle "nelstrom/vim-markdown-preview"
-Bundle "skwp/vim-html-escape"
+Plugin 'aaronjensen/vim-sass-status.git'
+Plugin 'itspriddle/vim-jquery.git'
+Plugin 'jtratner/vim-flavored-markdown.git'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'nelstrom/vim-markdown-preview'
+Plugin 'skwp/vim-html-escape'
 
 " Git related...
-Bundle "gregsexton/gitv"
-Bundle "skwp/vim-git-grep-rails-partial"
-Bundle "tjennings/git-grep-vim"
-Bundle "tpope/vim-fugitive"
-Bundle "tpope/vim-git"
+Plugin 'gregsexton/gitv'
+Plugin 'skwp/vim-git-grep-rails-partial'
+Plugin 'tjennings/git-grep-vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-git'
 
 " General text editing improvements...
-Bundle "AndrewRadev/splitjoin.vim"
-Bundle "Raimondi/delimitMate"
-Bundle "briandoll/change-inside-surroundings.vim.git"
-Bundle "godlygeek/tabular"
-Bundle "tomtom/tcomment_vim.git"
-Bundle "tpope/vim-bundler"
-Bundle "vim-scripts/IndexedSearch"
-Bundle "vim-scripts/camelcasemotion.git"
-Bundle "vim-scripts/matchit.zip.git"
+Plugin 'AndrewRadev/splitjoin.vim'
+Plugin 'Raimondi/delimitMate'
+Plugin 'briandoll/change-inside-surroundings.vim.git'
+Plugin 'godlygeek/tabular'
+Plugin 'tomtom/tcomment_vim.git'
+Plugin 'tpope/vim-bundler'
+Plugin 'vim-scripts/IndexedSearch'
+Plugin 'vim-scripts/camelcasemotion.git'
+Plugin 'vim-scripts/matchit.zip.git'
 
 " General vim improvements
-Bundle "MarcWeber/vim-addon-mw-utils.git"
-Bundle "bogado/file-line.git"
-Bundle "kien/ctrlp.vim"
-Bundle "majutsushi/tagbar.git"
-Bundle "rking/ag.vim"
-Bundle "scrooloose/nerdtree.git"
-Bundle "scrooloose/syntastic.git"
-Bundle "sjbach/lusty.git"
-Bundle "sjl/gundo.vim"
-Bundle "skwp/YankRing.vim"
-Bundle "skwp/greplace.vim"
-Bundle "tomtom/tlib_vim.git"
-Bundle "tpope/vim-abolish"
-Bundle "tpope/vim-endwise.git"
-Bundle "tpope/vim-ragtag"
-Bundle "tpope/vim-repeat.git"
-Bundle "tpope/vim-surround.git"
-Bundle "tpope/vim-unimpaired"
-Bundle "vim-scripts/AutoTag.git"
-Bundle "vim-scripts/lastpos.vim"
-Bundle "vim-scripts/sudo.vim"
-Bundle "xsunsmile/showmarks.git"
+Plugin 'MarcWeber/vim-addon-mw-utils.git'
+Plugin 'bogado/file-line.git'
+Plugin 'kien/ctrlp.vim'
+Plugin 'majutsushi/tagbar.git'
+Plugin 'rking/ag.vim'
+Plugin 'scrooloose/nerdtree.git'
+Plugin 'scrooloose/syntastic.git'
+Plugin 'sjbach/lusty.git'
+Plugin 'sjl/gundo.vim'
+Plugin 'skwp/YankRing.vim'
+Plugin 'skwp/greplace.vim'
+Plugin 'tomtom/tlib_vim.git'
+Plugin 'tpope/vim-abolish'
+Plugin 'tpope/vim-endwise.git'
+Plugin 'tpope/vim-ragtag'
+Plugin 'tpope/vim-repeat.git'
+Plugin 'tpope/vim-surround.git'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'vim-scripts/AutoTag.git'
+Plugin 'vim-scripts/lastpos.vim'
+Plugin 'vim-scripts/sudo.vim'
+Plugin 'xsunsmile/showmarks.git'
 
 " Tmux integration
-Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'jgdavey/tslime.vim'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'jgdavey/tslime.vim'
 
 " Text objects
-Bundle "austintaylor/vim-indentobject"
-Bundle "bootleq/vim-textobj-rubysymbol"
-Bundle "coderifous/textobj-word-column.vim"
-Bundle "kana/vim-textobj-datetime"
-Bundle "kana/vim-textobj-entire"
-Bundle "kana/vim-textobj-function"
-Bundle "kana/vim-textobj-user"
-Bundle "lucapette/vim-textobj-underscore"
-Bundle "nathanaelkane/vim-indent-guides"
-Bundle "nelstrom/vim-textobj-rubyblock"
-Bundle "thinca/vim-textobj-function-javascript"
-Bundle "vim-scripts/argtextobj.vim"
+Plugin 'austintaylor/vim-indentobject'
+Plugin 'bootleq/vim-textobj-rubysymbol'
+Plugin 'coderifous/textobj-word-column.vim'
+Plugin 'kana/vim-textobj-datetime'
+Plugin 'kana/vim-textobj-entire'
+Plugin 'kana/vim-textobj-function'
+Plugin 'kana/vim-textobj-user'
+Plugin 'lucapette/vim-textobj-underscore'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'thinca/vim-textobj-function-javascript'
+Plugin 'vim-scripts/argtextobj.vim'
 
 " Cosmetics, color scheme, Powerline...
-Bundle "godlygeek/csapprox"
-Bundle "chrisbra/color_highlight.git"
-Bundle "skwp/vim-powerline.git"
-Bundle "vim-scripts/TagHighlight.git"
-Bundle 'morhetz/gruvbox'
+Plugin 'godlygeek/csapprox'
+Plugin 'chrisbra/color_highlight.git'
+Plugin 'skwp/vim-powerline.git'
+Plugin 'vim-scripts/TagHighlight.git'
+Plugin 'morhetz/gruvbox'
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
@@ -112,4 +113,5 @@ if filereadable(expand("~/.yadr/vim/.vundles.local"))
 endif
 
 "Filetype plugin indent on is required by vundle
+call vundle#end()
 filetype plugin indent on
