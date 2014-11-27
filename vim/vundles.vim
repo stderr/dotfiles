@@ -79,6 +79,7 @@ Plugin 'vim-scripts/lastpos.vim'
 Plugin 'vim-scripts/sudo.vim'
 Plugin 'xsunsmile/showmarks.git'
 Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'mhinz/vim-startify'
 
 " Tmux integration
 Plugin 'christoomey/vim-tmux-navigator'
