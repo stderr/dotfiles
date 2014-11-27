@@ -98,12 +98,12 @@ Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'thinca/vim-textobj-function-javascript'
 Plugin 'vim-scripts/argtextobj.vim'
 
-" Cosmetics, color scheme, Powerline...
+" Cosmetics, color scheme, airline...
 Plugin 'godlygeek/csapprox'
 Plugin 'chrisbra/color_highlight.git'
-Plugin 'skwp/vim-powerline.git'
 Plugin 'vim-scripts/TagHighlight.git'
 Plugin 'morhetz/gruvbox'
+Plugin 'bling/vim-airline'
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
