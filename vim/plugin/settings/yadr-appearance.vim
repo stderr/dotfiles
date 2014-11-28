@@ -3,6 +3,8 @@
 colorscheme gruvbox
 let g:gruvbox_italic=0
 set background=dark
+set relativenumber
+set number
 
 if has("gui_running")
   "tell the term has 256 colors

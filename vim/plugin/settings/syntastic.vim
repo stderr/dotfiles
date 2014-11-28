@@ -15,3 +15,5 @@ let g:syntastic_auto_loc_list=1
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 "use the jsxhint wrapper around jshint
 let g:syntastic_javascript_checkers = ['jsxhint']
+"turn syntastic off for right now until chruby is fixed
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
