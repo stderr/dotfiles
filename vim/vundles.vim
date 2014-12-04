@@ -29,10 +29,10 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'guns/vim-clojure-static'
+Plugin 'itspriddle/vim-jquery.git'
 
 " Html, Xml, Css, Markdown...
 Plugin 'aaronjensen/vim-sass-status.git'
-Plugin 'itspriddle/vim-jquery.git'
 Plugin 'jtratner/vim-flavored-markdown.git'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'nelstrom/vim-markdown-preview'
