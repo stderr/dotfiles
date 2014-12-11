@@ -25,11 +25,15 @@ Plugin 'tpope/vim-rake.git'
 Plugin 'vim-ruby/vim-ruby.git'
 Plugin 'thoughtbot/vim-rspec'
 
-" Other languages
+" Clojure
+Plugin 'guns/vim-clojure-static'
+Plugin 'tpope/vim-fireplace'
+Plugin 'tpope/vim-classpath'
+Plugin 'kien/rainbow_parentheses.vim'
+
+" JavaScript
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
-Plugin 'guns/vim-clojure-static'
-Plugin 'itspriddle/vim-jquery.git'
 
 " Html, Xml, Css, Markdown...
 Plugin 'aaronjensen/vim-sass-status.git'
@@ -78,7 +82,6 @@ Plugin 'vim-scripts/AutoTag.git'
 Plugin 'vim-scripts/lastpos.vim'
 Plugin 'vim-scripts/sudo.vim'
 Plugin 'xsunsmile/showmarks.git'
-Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'mhinz/vim-startify'
 
 " Tmux integration
