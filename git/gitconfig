@@ -117,3 +117,5 @@
   enabled = true
 [include]
   path = .gitconfig.user
+[user]
+	email = stderr@truedat.org
