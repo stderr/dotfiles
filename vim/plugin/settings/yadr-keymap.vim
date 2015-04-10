@@ -89,7 +89,7 @@ imap <C-a> <esc>wa
 
 " ==== NERD tree
 " ,nt for nerd tree
-nmap <silent> ,nt :NERDTreeToggle<CR>
+" nmap <silent> ,nt :NERDTreeToggle<CR>
 
 " ,q to toggle quickfix window (where you have stuff like GitGrep)
 " ,oq to open it back up (rare)
