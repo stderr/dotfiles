@@ -31,6 +31,9 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-classpath'
 Plugin 'kien/rainbow_parentheses.vim'
 
+" Golang
+Plugin 'fatih/vim-go'
+
 " JavaScript
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
@@ -39,7 +42,6 @@ Plugin 'jelera/vim-javascript-syntax'
 " Html, Xml, Css, Markdown...
 Plugin 'aaronjensen/vim-sass-status.git'
 Plugin 'jtratner/vim-flavored-markdown.git'
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'nelstrom/vim-markdown-preview'
 Plugin 'skwp/vim-html-escape'
 
