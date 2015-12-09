@@ -7,7 +7,6 @@ autocmd BufNewFile,BufRead *.coffee set filetype=coffee
 autocmd BufNewFile,BufRead *.js set filetype=javascript
 
 
->>>>>>> cleanup
 " no line numbers
 "set relativenumber
 "set number
